@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.navbar, .hero {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 200px;
+    /* flex-wrap: wrap; */
+}
+
+.hero {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.navbar-list {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+
+.section-one {
+    background-image: url(./images/test.jpg);
+    flex: 1;
+}
+
+/* Section 2 */
+
+.section-two {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.card , .card >img {
+    
+    width: 200px;
+}
