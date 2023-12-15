@@ -2,13 +2,23 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
-    background-color: pink;
+    background-color: rgb(255, 116, 176);
+    color: white; 
+}
+
+p, button, li {
+    font-size: 1.2rem;
+    font-family: monaco, Consolas, "Lucida Console", monospace;
+}
+
+h1 {
+    font-family: Amaranth;
 }
 
 .navbar, .hero  {
     display: flex;
     justify-content: space-between;
-    margin: 10px 200px;
+    margin: 10px 180px;
     /* flex-wrap: wrap; */
 }
 
@@ -24,8 +34,36 @@ body {
 }
 
 .section-one {
-    background-image: url(./images/test.jpg);
+    background-image: url(./images/francois-hoang-MFYlCoSm-0o-unsplash.jpg);
+    background-size: cover;
+    background-attachment:fixed;
     flex: 1;
+}
+
+.hero-text {
+    padding-top: 40px;
+}
+
+.cafe-img {
+    filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.591));
+    border-radius: 50px 0px;
+}
+
+button {
+    border: none;
+    border-radius: 10px;
+    color: rgb(255, 192, 236);
+    background-color: black;
+    filter: drop-shadow(0 0 0.75rem rgba(255, 55, 195, 0.785));
+    transition: 0.3s all ease-in-out;
+} 
+
+.section-one button {
+    padding: 10px;
+}
+
+button:hover {
+    transform: scale(1.1); 
 }
 
 /* Section 2 */
@@ -49,12 +87,14 @@ body {
 /* Section 3 */
 
 .section-three {
-    background-image: url(./images/test.jpg);
+    background-image: url(./images/valentin-beauvais-yVUQlyRlJSw-unsplash.jpg);
+    background-size: cover;
+    background-attachment:fixed;
     margin-top: 80px;
 }
 
 .quote {
-    margin: 70px 400px;
+    margin: 100px 400px;
 }
 
 .quote-author{
@@ -70,13 +110,31 @@ body {
 }
 
 .section-four {
-    background-color: lightblue;
+    background-color: black;
     margin: 80px 200px;
+    margin-top: 0;
+    border-radius: 15px;
+    color: rgb(255, 192, 236);
+}
+
+.section-four button {
+    border-radius: 50%;
+}
+
+.glaze {
+    align-self: flex-end;
+    margin-right: 40px;
 }
 
 footer {
-    background-image: url(./images/test.jpg);
-    padding: 80px 0px;
+    background-image: url(./images/footer.jpg);
+    background-attachment:fixed;
+    background-size: cover;
+    padding: 100px 0px;
+}
+
+.glow {
+    text-shadow: 0 0 10px #ffffff99, 0 0 20px #ffffffa1, 0 0 30px #e60073b4, 0 0 40px #e60073d2, 0 0 50px #e60073c3, 0 0 60px #e60073cf, 0 0 70px #e60073;
 }
 
 
